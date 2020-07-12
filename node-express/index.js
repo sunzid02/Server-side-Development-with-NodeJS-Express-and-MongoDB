@@ -16,8 +16,12 @@ app.use( bodyParser.json() );
 
 //////////////////// Routes starts /////////////////////////////////
 const dishRouter = require('./routes/dishRouter');
+const promoRouter = require('./routes/promoRouter');
+const leaderRouter = require('./routes/leaderRouter');
 
 app.use('/dishes', dishRouter);
+app.use('/promotions', promoRouter);
+app.use('/leaders', leaderRouter);
 // app.get('/dishes/:dishId', (req, res, next) => {
 //     res.end('Will send details of the dish: ' + req.params.dishId + ' to you!');
 // });
