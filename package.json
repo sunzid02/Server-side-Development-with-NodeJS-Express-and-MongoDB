@@ -1,0 +1,19 @@
+{
+  "name": "node-mongoose",
+  "version": "1.0.0",
+  "description": "Assigment and lectures code of this course in Coursera.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunzid02/Server-side-Development-with-NodeJS-Express-and-MongoDB.git"
+  },
+  "author": "Sunzid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunzid02/Server-side-Development-with-NodeJS-Express-and-MongoDB/issues"
+  },
+  "homepage": "https://github.com/sunzid02/Server-side-Development-with-NodeJS-Express-and-MongoDB#readme"
+}
